@@ -4,17 +4,6 @@ import json
 import ast
 
 
-def parse_webhook(webhook_data):
-    """
-    This function takes the string from tradingview and turns it into a python dict.
-    :param webhook_data: POST data from tradingview, as a string.
-    :return: Dictionary version of string.
-    """
-
-    data = ast.literal_eval(webhook_data)
-    return data
-
-
 app = Flask(__name__)
 
 
@@ -26,8 +15,10 @@ def root():
 @app.route('/webhook', methods=['POST'])
 def webhook():
     if request.method == 'POST':
-        data = parse_webhook(request.get_data)
+        #data = ast.literal_eval(request.get_data(as_text=True))
+        data = request.get_json()
         print (data)
+        print (data.keys())
         return Response(status=200)
 
 
