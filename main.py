@@ -31,6 +31,6 @@ def webhook():
 
 
 if __name__ == "__main__":
-    app.run(port=4040, debug=True)
+    app.run(port=80, debug=True)
 
 
