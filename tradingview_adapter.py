@@ -6,11 +6,13 @@ import bitmex_adapter as bmex
 
 def analyse_alert(data):
     '''
-    reads data from json
+    Determines where to place the order and the kind of order
 
         param:
             data: a json file containing an alert from tradingview
         return:
 
     '''
-    print (data)
+
+    
+    

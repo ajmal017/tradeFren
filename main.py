@@ -3,16 +3,15 @@ from pyngrok import ngrok
 import json
 import tradingview_adapter as tview
 import bitmex_adapter as bmex
+import argparse
+from flask import Flask
+from flask import render_template
+from flask import request
+import sys
+import os
 
 
 app = Flask(__name__)
-
-
-
-@app.route('/')
-def root():
-    return 'online'
-
 
 @app.route('/webhook', methods=['POST'])
 def webhook():
@@ -29,8 +28,26 @@ def webhook():
 
 
 
+# WEB INTERFACE
+
+@app.route("/", methods=['POST', 'GET'])
+def index():
+    '''
+    index page for changing the settings
+    '''
+
+    return render_template('index.html')
+
+
 
 if __name__ == "__main__":
-    app.run(port=80, debug=True)
+
+    if len(sys.argv) > 1:
+        portNumber = sys.argv[1]
+    else:
+        portNumber = 4040
+
+
+    app.run(port=portNumber, debug=True)
 
 

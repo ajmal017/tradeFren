@@ -32,7 +32,6 @@ def sellSignal():
 
 
 
-
 def run():
 
       buySignal()
