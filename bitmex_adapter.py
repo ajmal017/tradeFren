@@ -5,21 +5,40 @@ import config
 import json
 
 
-testClient
 
 
-def buySignal(data):
-    client.Order.Order_new(symbol='XBTUSD', orderQty=10,
-                           price=data["price"]).result()
+def buySignal():
+
+      client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID,
+                       api_secret=config.BMEX_API_SECRET)
+      print("client started for buying")
+      
+      ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD",
+                     api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+      print ("client connected")
+      client.Order.Order_new(symbol='XBTUSD', orderQty=10).result()
+
+
+def sellSignal():
+
+      client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+      print("client started for selling")
+      
+      ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD", api_key=config.BMEX_API_ID, 
+                        api_secret=config.BMEX_API_SECRET)
+      print("client connected")
+
+      client.Order.Order_new(symbol = 'XBTUSD', orderQty = -10).result()
+
 
 
 
 def run():
 
-      client = bitmex.bitmex(test=False, api_key=config.BMEX_API_ID,api_secret=config.BMEX_API_SECRET)
-      print ("client started")
-      #ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD",api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
-      sleeptime = 10  # how much interval between each price request
+      buySignal()
+
+
+      sellSignal()
 
       return client
 
