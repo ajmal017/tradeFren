@@ -13,6 +13,9 @@ import os
 
 app = Flask(__name__)
 
+percentageToTradeWith = 80
+
+
 @app.route('/webhook', methods=['POST'])
 def webhook():
     if request.method == 'POST':
@@ -38,11 +41,15 @@ def index():
 
     if request.method == "POST":
         #print (request.form['text'])
-        percentage = request.form['text']
+        percentage = request.form['percentage']
+        leverage = request.form['leverage']
 
-        funds, orderQty = bmex.get_funds(int(percentage))
+        funds, orderQtyBTC, askPrice = bmex.get_funds(percentage)
+        percentageToTradeWith = percentage
 
-        print (orderQty)
+        #print(float(askPrice) , float(orderQtyBTC) , float(leverage))
+
+        contractSize = (float(askPrice) * (float(orderQtyBTC) * float(leverage)))
 
 
         '''
