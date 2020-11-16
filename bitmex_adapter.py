@@ -3,11 +3,17 @@ import time
 import bitmex
 import config
 import json
+import pprint
 
 
 
 
-def buySignal():
+def buySignal(data):
+      '''
+      Processes a BUY signal from json file provided by a tradingview webhook.
+
+            data: a json file
+      '''
 
       client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID,
                        api_secret=config.BMEX_API_SECRET)
@@ -19,7 +25,12 @@ def buySignal():
       client.Order.Order_new(symbol='XBTUSD', orderQty=10).result()
 
 
-def sellSignal():
+def sellSignal(data):
+      '''
+      Processes a SELL signal from json file provided by a tradingview webhook.
+
+            data: a json file
+      '''
 
       client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
       print("client started for selling")
@@ -30,16 +41,39 @@ def sellSignal():
 
       client.Order.Order_new(symbol = 'XBTUSD', orderQty = -10).result()
 
+def get_funds(percentage):
+      '''
+      sends a request to bitmex requesting the funds of an account
+
+            params:
+                  percentage: the percentage of the total funds used for the next trade
+      '''
+
+      client = bitmex.bitmex(
+            test=True, api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+      ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD", api_key=config.BMEX_API_ID,
+                              api_secret=config.BMEX_API_SECRET)
+
+      data = ws.funds()
+      currentPrice = ws.get_instrument()
+      askPrice = currentPrice['askPrice']
+      #print ("///////////xxxx/////////")
+      #currentPrice2 = ws.get_ticker()
+      #print (currentPrice2)
+
+      '''
+      for x, y in data.items():
+            print (x, y)
+            '''
+
+      orderQty = int(data["walletBalance"])*percentage/1000000000
+      
+      return data, orderQty
 
 
-def run():
-
-      buySignal()
 
 
-      sellSignal()
-
-      return client
+      
 
 '''
       while(ws.ws.sock.connected): #while connection to bitmex is active
@@ -67,4 +101,4 @@ def run():
 '''
 
 if __name__ == "__main__":
-      run()
+      get_funds()

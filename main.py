@@ -18,9 +18,9 @@ def webhook():
     if request.method == 'POST':
 
         if(data["action"] == "buy" or data["action"] == "strongbuy"):
-            bmex.buySignal()
+            bmex.buySignal(data)
         if(data["action"] == "sell" or data["action"] == "strongsell"):
-            bmex.sellSignal()
+            bmex.sellSignal(data)
 
     else:
         bmex.sellSignal()
@@ -35,6 +35,26 @@ def index():
     '''
     index page for changing the settings
     '''
+
+    if request.method == "POST":
+        #print (request.form['text'])
+        percentage = request.form['text']
+
+        funds, orderQty = bmex.get_funds(int(percentage))
+
+        print (orderQty)
+
+
+        '''
+        print("walletbalance" , funds["walletBalance"])
+        
+        walletBalance = funds["walletBalance"]
+        orderQty = walletBalance*0.8/100000000
+
+        print(orderQty, walletBalance/100000000)
+        '''
+
+        
 
     return render_template('index.html')
 
