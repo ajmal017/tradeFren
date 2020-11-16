@@ -6,6 +6,24 @@ import json
 import pprint
 
 
+
+
+def calcPosSize(ws, percentage, leverage):
+      '''
+      Used to calculate amount of contracts for opening a position
+      '''
+
+      data = ws.funds()
+      currentPrice = ws.get_instrument()
+      askPrice = currentPrice['askPrice']
+      orderQty = int(data["walletBalance"])*int(percentage)/1000000000
+      contractSize = (float(askPrice) * (float(orderQty) * float(leverage)))
+
+
+      return contractSize
+
+
+
 def buySignal(percentage, leverage):
       '''
       Processes a BUY signal from json file provided by a tradingview webhook.
@@ -22,15 +40,17 @@ def buySignal(percentage, leverage):
                      api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
       print ("client connected")
 
+      '''
       data = ws.funds()
       currentPrice = ws.get_instrument()
-
       askPrice = currentPrice['askPrice']
       orderQty = int(data["walletBalance"])*int(percentage)/1000000000
-
       contractSize = (float(askPrice) * (float(orderQty) * float(leverage)))
+      '''
 
+      contractSize = calcPosSize(ws, percentage, leverage)
 
+      print ("amount contracts" , contractSize)
 
       client.Order.Order_new(symbol='XBTUSD', orderQty=contractSize).result()
 

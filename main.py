@@ -50,6 +50,9 @@ def index():
         percentageToTradeWith = percentage
         leverageToTradeWith = leverage
 
+        bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
+
+
         #print(float(askPrice) , float(orderQtyBTC) , float(leverage))
         #contractSize = (float(askPrice) * (float(orderQtyBTC) * float(leverage)))
 
