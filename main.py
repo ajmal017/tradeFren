@@ -23,13 +23,13 @@ def webhook():
 
         if(data["action"] == "buy" or data["action"] == "strongbuy"):
             bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
+
         if(data["action"] == "sell" or data["action"] == "strongsell"):
             bmex.sellSignal(data)
 
     else:
         bmex.sellSignal()
     return Response(status=200)
-
 
 
 # WEB INTERFACE
@@ -50,7 +50,7 @@ def index():
         percentageToTradeWith = percentage
         leverageToTradeWith = leverage
 
-        bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
+        #bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
 
 
         #print(float(askPrice) , float(orderQtyBTC) , float(leverage))

@@ -6,8 +6,6 @@ import json
 import pprint
 
 
-
-
 def calcPosSize(ws, percentage, leverage):
       '''
       Used to calculate amount of contracts for opening a position
