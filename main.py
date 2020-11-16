@@ -14,6 +14,7 @@ import os
 app = Flask(__name__)
 
 percentageToTradeWith = 80
+leverageToTradeWith = 10
 
 
 @app.route('/webhook', methods=['POST'])
@@ -21,7 +22,7 @@ def webhook():
     if request.method == 'POST':
 
         if(data["action"] == "buy" or data["action"] == "strongbuy"):
-            bmex.buySignal(data)
+            bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
         if(data["action"] == "sell" or data["action"] == "strongsell"):
             bmex.sellSignal(data)
 
@@ -44,13 +45,15 @@ def index():
         percentage = request.form['percentage']
         leverage = request.form['leverage']
 
-        funds, orderQtyBTC, askPrice = bmex.get_funds(percentage)
+
+        #funds, orderQtyBTC, askPrice = bmex.get_funds(percentage)
         percentageToTradeWith = percentage
+        leverageToTradeWith = leverage
 
         #print(float(askPrice) , float(orderQtyBTC) , float(leverage))
+        #contractSize = (float(askPrice) * (float(orderQtyBTC) * float(leverage)))
 
-        contractSize = (float(askPrice) * (float(orderQtyBTC) * float(leverage)))
-
+        #bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
 
         '''
         print("walletbalance" , funds["walletBalance"])

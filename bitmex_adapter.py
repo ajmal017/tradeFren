@@ -6,11 +6,12 @@ import json
 import pprint
 
 
-def buySignal(data):
+def buySignal(percentage, leverage):
       '''
       Processes a BUY signal from json file provided by a tradingview webhook.
 
             data: a json file
+            percentage: the percentage of funds to use for trade
       '''
 
       client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID,
@@ -21,8 +22,17 @@ def buySignal(data):
                      api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
       print ("client connected")
 
+      data = ws.funds()
+      currentPrice = ws.get_instrument()
 
-      client.Order.Order_new(symbol='XBTUSD', orderQty=10).result()
+      askPrice = currentPrice['askPrice']
+      orderQty = int(data["walletBalance"])*int(percentage)/1000000000
+
+      contractSize = (float(askPrice) * (float(orderQty) * float(leverage)))
+
+
+
+      client.Order.Order_new(symbol='XBTUSD', orderQty=contractSize).result()
 
 
 def sellSignal(data):
@@ -53,6 +63,7 @@ def get_funds(percentage):
             test=True, api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
       ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD", api_key=config.BMEX_API_ID,
                               api_secret=config.BMEX_API_SECRET)
+
 
       data = ws.funds()
       currentPrice = ws.get_instrument()
