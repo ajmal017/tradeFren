@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <style>
+        </style>
+        <body>
+            <button class="enableEthereumButton">Enable Ethereum</button> 
+
+            <form action="/create_tx" method="post">
+                <label f or = "api_key_secret">API KEY SECRET</label>
+
+                <input type="text", name = "api_key", method = "post">
+                <input type="text", name = "api_secret", method = "post">
+                <input type="submit" value="Submit">
+
+
+            </form>
+
+        <p style = 'text-align:center;'> {{ address }}</p>
+
+        <script>
+        // script for starting metamask
+        const ethereumButton = document.querySelector(".enableEthereumButton");
+        
+        ethereumButton.addEventListener("click", () => {
+        //Will Start the metamask extension
+        ethereum.enable();
+        }); 
+        </script>
+        </body>
+    </head> 
+</html>        
