@@ -80,3 +80,323 @@
 17711
 17710.5
 17710.5
+17710.5
+17704.5
+17704
+17704
+17704.5
+17704
+17704
+17704
+17703
+17700
+17702
+17709.5
+17709
+17720
+17716.5
+17716.5
+17711
+17711
+17711
+17714.5
+17717.5
+17717.5
+17713.5
+17713.5
+17713.5
+17713.5
+17713.5
+17717
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17717.5
+17714
+17712
+17704
+17704
+17703.5
+17705.5
+17709
+17709
+17709.5
+17709.5
+17709.5
+17709.5
+17709
+17709
+17709
+17709
+17714
+17716
+17716.5
+17716
+17716
+17716
+17716.5
+17716
+17720
+17720
+17720
+17720
+17720
+17720
+17720
+17720
+17720
+17720
+17724
+17725.5
+17725.5
+17726
+17729.5
+17732
+17735.5
+17735.5
+17735
+17735
+17735
+17735.5
+17735
+17735.5
+17735
+17735.5
+17735.5
+17735.5
+17735.5
+17735.5
+17735
+17735
+17735.5
+17737.5
+17738.5
+17747
+17747.5
+17747.5
+17747.5
+17740.5
+17740.5
+17741
+17741
+17737
+17735
+17735.5
+17735
+17735
+17731.5
+17731.5
+17726
+17729
+17738
+17743.5
+17750
+17750
+17750
+17760
+last Price: 17741mark price: 17758.71timestamp: 2020-11-28T18:09:35.620Z
+last Price: 17741mark price: 17760.1timestamp: 2020-11-28T18:09:40.000Z
+last Price: 17741mark price: 17757.53timestamp: 2020-11-28T18:09:45.000Z
+last Price: 17741mark price: 17756.15timestamp: 2020-11-28T18:09:50.000Z
+last Price: 17740.5mark price: 17752.84timestamp: 2020-11-28T18:09:55.000Z
+last Price: 17741mark price: 17755.14timestamp: 2020-11-28T18:10:00.492Z
+last Price: 17740.5mark price: 17754.97timestamp: 2020-11-28T18:10:05.000Z
+last Price: 17740.5mark price: 17752.91timestamp: 2020-11-28T18:10:10.486Z
+last Price: 17741mark price: 17755.06timestamp: 2020-11-28T18:10:15.000Z
+last Price: 17745mark price: 17755.06timestamp: 2020-11-28T18:10:19.612Z
+last Price: 17745.5mark price: 17763.65timestamp: 2020-11-28T18:10:25.000Z
+last Price: 17746mark price: 17763.04timestamp: 2020-11-28T18:10:30.000Z
+last Price: 17745.5mark price: 17762.68timestamp: 2020-11-28T18:10:35.752Z
+last Price: 17745.5mark price: 17763.57timestamp: 2020-11-28T18:10:40.000Z
+last Price: 17745.5mark price: 17765.03timestamp: 2020-11-28T18:10:45.000Z
+last Price: 17745.5mark price: 17764.2timestamp: 2020-11-28T18:10:50.892Z
+last Price: 17746mark price: 17764.14timestamp: 2020-11-28T18:10:55.124Z
+last Price: 17746mark price: 17764.66timestamp: 2020-11-28T18:11:00.000Z
+last Price: 17746mark price: 17767.39timestamp: 2020-11-28T18:11:05.584Z
+last Price: 17749.5mark price: 17770.82timestamp: 2020-11-28T18:11:10.000Z
+last Price: 17752mark price: 17770.82timestamp: 2020-11-28T18:11:14.279Z
+last Price: 17752.5mark price: 17772.53timestamp: 2020-11-28T18:11:20.194Z
+last Price: 17757mark price: 17771.02timestamp: 2020-11-28T18:11:26.007Z
+last Price: 17757mark price: 17772.69timestamp: 2020-11-28T18:11:31.412Z
+last Price: 17757mark price: 17774.18timestamp: 2020-11-28T18:11:36.007Z
+last Price: 17764.5mark price: 17779.03timestamp: 2020-11-28T18:12:45.000Z
+last Price: 17764.5mark price: 17778.35timestamp: 2020-11-28T18:12:55.000Z
+last Price: 17764.5mark price: 17781.16timestamp: 2020-11-28T18:13:03.300Z
+last Price: 17764.5mark price: 17779.27timestamp: 2020-11-28T18:13:07.388Z
+last Price: 17764.5mark price: 17778.35timestamp: 2020-11-28T18:13:10.000Z
+last Price: 17764.5mark price: 17778.15timestamp: 2020-11-28T18:13:17.046Z
+last Price: 17764mark price: 17780.39timestamp: 2020-11-28T18:13:22.759Z
+last Price: 17757mark price: 17779.44timestamp: 2020-11-28T18:13:26.995Z
+last Price: 17757mark price: 17772.77timestamp: 2020-11-28T18:13:31.817Z
+last Price: 17757mark price: 17772.66timestamp: 2020-11-28T18:13:35.000Z
+last Price: 17757mark price: 17771.31timestamp: 2020-11-28T18:13:43.608Z
+last Price: 17757mark price: 17774.3timestamp: 2020-11-28T18:13:45.000Z
+last Price: 17757.5mark price: 17774.56timestamp: 2020-11-28T18:13:50.000Z
+last Price: 17757.5mark price: 17771.57timestamp: 2020-11-28T18:13:56.379Z
+last Price: 17757.5mark price: 17772.95timestamp: 2020-11-28T18:14:00.000Z
+last Price: 17755mark price: 17771.4timestamp: 2020-11-28T18:14:06.408Z
+last Price: 17749.5mark price: 17771.4timestamp: 2020-11-28T18:14:09.591Z
+last Price: 17748mark price: 17764.17timestamp: 2020-11-28T18:14:16.810Z
+last Price: 17745.5mark price: 17763.24timestamp: 2020-11-28T18:14:22.802Z
+last Price: 17745.5mark price: 17763.24timestamp: 2020-11-28T18:14:28.433Z
+last Price: 17745mark price: 17764.53timestamp: 2020-11-28T18:14:30.000Z
+last Price: 17745mark price: 17764.54timestamp: 2020-11-28T18:14:35.209Z
+last Price: 17745mark price: 17764.55timestamp: 2020-11-28T18:14:40.000Z
+last Price: 17745.5mark price: 17763.42timestamp: 2020-11-28T18:14:45.000Z
+last Price: 17745.5mark price: 17760.3timestamp: 2020-11-28T18:14:50.000Z
+last Price: 17745mark price: 17762.44timestamp: 2020-11-28T18:14:58.844Z
+last Price: 17745mark price: 17762.99timestamp: 2020-11-28T18:15:03.048Z
+last Price: 17745mark price: 17762.99timestamp: 2020-11-28T18:15:03.048Z
+last Price: 17745.5mark price: 17762.98timestamp: 2020-11-28T18:15:13.283Z
+last Price: 17736.5mark price: 17762.98timestamp: 2020-11-28T18:15:14.561Z
+last Price: 17734.5mark price: 17757.35timestamp: 2020-11-28T18:15:22.743Z
+last Price: 17734mark price: 17756.27timestamp: 2020-11-28T18:15:26.017Z
+last Price: 17734mark price: 17753.99timestamp: 2020-11-28T18:15:32.112Z
+last Price: 17734mark price: 17752.14timestamp: 2020-11-28T18:15:35.745Z
+last Price: 17734mark price: 17753.38timestamp: 2020-11-28T18:15:41.819Z
+last Price: 17734mark price: 17748.72timestamp: 2020-11-28T18:15:47.587Z
+last Price: 17734mark price: 17748.02timestamp: 2020-11-28T18:15:50.000Z
+last Price: 17734mark price: 17747.53timestamp: 2020-11-28T18:15:57.732Z
+last Price: 17734mark price: 17747.25timestamp: 2020-11-28T18:16:03.555Z
+last Price: 17732mark price: 17744.87timestamp: 2020-11-28T18:16:06.806Z
+last Price: 17730mark price: 17744.37timestamp: 2020-11-28T18:16:13.800Z
+last Price: 17730mark price: 17738.62timestamp: 2020-11-28T18:16:18.904Z
+last Price: 17727mark price: 17737.65timestamp: 2020-11-28T18:16:22.224Z
+last Price: 17724.5mark price: 17737.62timestamp: 2020-11-28T18:16:28.716Z
+last Price: 17724mark price: 17739.52timestamp: 2020-11-28T18:16:33.302Z
+last Price: 17724.5mark price: 17739.83timestamp: 2020-11-28T18:16:37.941Z
+last Price: 17722mark price: 17738.22timestamp: 2020-11-28T18:16:42.626Z
+last Price: 17716mark price: 17738.22timestamp: 2020-11-28T18:16:43.725Z
+last Price: 17711mark price: 17726.01timestamp: 2020-11-28T18:16:45.639Z
+last Price: 17711.5mark price: 17727.93timestamp: 2020-11-28T18:16:55.805Z
+last Price: 17711.5mark price: 17724.34timestamp: 2020-11-28T18:17:03.610Z
+last Price: 17711.5mark price: 17724.75timestamp: 2020-11-28T18:17:09.016Z
+last Price: 17711.5mark price: 17724.66timestamp: 2020-11-28T18:17:13.829Z
+last Price: 17709.5mark price: 17725.06timestamp: 2020-11-28T18:17:18.720Z
+last Price: 17709.5mark price: 17722.29timestamp: 2020-11-28T18:17:20.000Z
+last Price: 17709mark price: 17723.77timestamp: 2020-11-28T18:17:25.270Z
+last Price: 17715mark price: 17727.79timestamp: 2020-11-28T18:17:30.825Z
+last Price: 17719.5mark price: 17728.11timestamp: 2020-11-28T18:17:37.792Z
+last Price: 17714mark price: 17730.82timestamp: 2020-11-28T18:17:42.169Z
+last Price: 17712mark price: 17727.07timestamp: 2020-11-28T18:17:48.788Z
+last Price: 17712mark price: 17728.34timestamp: 2020-11-28T18:17:52.920Z
+last Price: 17710.5mark price: 17723.99timestamp: 2020-11-28T18:17:57.395Z
+last Price: 17710.5mark price: 17722.93timestamp: 2020-11-28T18:18:00.000Z
+last Price: 17710.5mark price: 17722.07timestamp: 2020-11-28T18:18:07.732Z
+last Price: 17710.5mark price: 17725.97timestamp: 2020-11-28T18:18:12.233Z
+last Price: 17710.5mark price: 17726.31timestamp: 2020-11-28T18:18:18.014Z
+last Price: 17710mark price: 17726.15timestamp: 2020-11-28T18:18:24.174Z
+last Price: 17710mark price: 17725.76timestamp: 2020-11-28T18:18:28.660Z
+last Price: 17710mark price: 17725.77timestamp: 2020-11-28T18:18:33.905Z
+last Price: 17710mark price: 17727.57timestamp: 2020-11-28T18:18:37.596Z
+last Price: 17710mark price: 17728timestamp: 2020-11-28T18:18:41.722Z
+last Price: 17710.5mark price: 17728.18timestamp: 2020-11-28T18:18:48.601Z
+last Price: 17710.5mark price: 17726.05timestamp: 2020-11-28T18:18:54.314Z
+last Price: 17715mark price: 17728.39timestamp: 2020-11-28T18:18:55.767Z
+last Price: 17720mark price: 17728.39timestamp: 2020-11-28T18:19:00.138Z
+last Price: 17720mark price: 17735.34timestamp: 2020-11-28T18:19:08.280Z
+last Price: 17720.5mark price: 17739.53timestamp: 2020-11-28T18:19:14.017Z
+last Price: 17720mark price: 17737.1timestamp: 2020-11-28T18:19:18.789Z
+last Price: 17720.5mark price: 17729.25timestamp: 2020-11-28T18:19:24.550Z
+last Price: 17717mark price: 17729.3timestamp: 2020-11-28T18:19:27.622Z
+last Price: 17714mark price: 17726.48timestamp: 2020-11-28T18:19:34.036Z
+last Price: 17714mark price: 17724.64timestamp: 2020-11-28T18:19:38.269Z
+last Price: 17714mark price: 17727.27timestamp: 2020-11-28T18:19:40.000Z
+last Price: 17714.5mark price: 17729.15timestamp: 2020-11-28T18:19:49.286Z
+last Price: 17714.5mark price: 17730.34timestamp: 2020-11-28T18:19:50.492Z
+last Price: 17714mark price: 17728timestamp: 2020-11-28T18:19:58.138Z
+last Price: 17714.5mark price: 17731.41timestamp: 2020-11-28T18:20:02.443Z
+last Price: 17714.5mark price: 17730.45timestamp: 2020-11-28T18:20:06.956Z
+last Price: 17710.5mark price: 17724.73timestamp: 2020-11-28T18:20:12.441Z
+last Price: 17709mark price: 17724.39timestamp: 2020-11-28T18:20:15.000Z
+last Price: 17709mark price: 17722.27timestamp: 2020-11-28T18:20:23.295Z
+last Price: 17709mark price: 17721.74timestamp: 2020-11-28T18:20:29.828Z
+last Price: 17709mark price: 17725.69timestamp: 2020-11-28T18:20:34.374Z
+last Price: 17709mark price: 17726.36timestamp: 2020-11-28T18:20:35.639Z
+last Price: 17708.5mark price: 17727.2timestamp: 2020-11-28T18:20:42.307Z
+last Price: 17709mark price: 17727.62timestamp: 2020-11-28T18:20:48.849Z
+last Price: 17708mark price: 17726.68timestamp: 2020-11-28T18:20:54.856Z
+last Price: 17708.5mark price: 17723.61timestamp: 2020-11-28T18:20:56.014Z
+last Price: 17708mark price: 17723.24timestamp: 2020-11-28T18:21:04.752Z
+last Price: 17707mark price: 17724.46timestamp: 2020-11-28T18:21:09.388Z
+last Price: 17706.5mark price: 17723.4timestamp: 2020-11-28T18:21:12.716Z
+last Price: 17705mark price: 17722.16timestamp: 2020-11-28T18:21:18.741Z
+last Price: 17705mark price: 17721.34timestamp: 2020-11-28T18:21:22.114Z
+last Price: 17705mark price: 17721.56timestamp: 2020-11-28T18:21:26.585Z
+last Price: 17708mark price: 17723.5timestamp: 2020-11-28T18:21:33.576Z
+last Price: 17708mark price: 17728.22timestamp: 2020-11-28T18:21:35.000Z
+last Price: 17714mark price: 17728.64timestamp: 2020-11-28T18:21:43.283Z
+last Price: 17714mark price: 17732.39timestamp: 2020-11-28T18:21:47.228Z
+last Price: 17714mark price: 17732.57timestamp: 2020-11-28T18:21:53.325Z
+last Price: 17718mark price: 17730.67timestamp: 2020-11-28T18:21:57.533Z
+last Price: 17718mark price: 17730.56timestamp: 2020-11-28T18:22:03.169Z
+last Price: 17718mark price: 17731.59timestamp: 2020-11-28T18:22:05.000Z
+last Price: 17718mark price: 17731.59timestamp: 2020-11-28T18:22:05.000Z
+last Price: 17711.5mark price: 17731.35timestamp: 2020-11-28T18:22:17.367Z
+last Price: 17710.5mark price: 17724.67timestamp: 2020-11-28T18:22:24.985Z
+last Price: 17710.5mark price: 17724.65timestamp: 2020-11-28T18:22:27.175Z
+last Price: 17710.5mark price: 17724.65timestamp: 2020-11-28T18:22:34.441Z
+last Price: 17710.5mark price: 17724.07timestamp: 2020-11-28T18:22:35.000Z
+last Price: 17710.5mark price: 17723.55timestamp: 2020-11-28T18:22:43.853Z
+last Price: 17710.5mark price: 17727.36timestamp: 2020-11-28T18:22:48.499Z
+last Price: 17710.5mark price: 17727.07timestamp: 2020-11-28T18:22:53.369Z
+last Price: 17710.5mark price: 17725.94timestamp: 2020-11-28T18:22:59.981Z
+last Price: 17710.5mark price: 17726.34timestamp: 2020-11-28T18:23:00.000Z
+last Price: 17710.5mark price: 17724.62timestamp: 2020-11-28T18:23:05.148Z
+last Price: 17710.5mark price: 17724.33timestamp: 2020-11-28T18:23:14.778Z
+last Price: 17710.5mark price: 17723.89timestamp: 2020-11-28T18:23:15.500Z
+last Price: 17710.5mark price: 17723.04timestamp: 2020-11-28T18:23:20.105Z
+last Price: 17710.5mark price: 17723.04timestamp: 2020-11-28T18:23:20.105Z
+last Price: 17710.5mark price: 17723.04timestamp: 2020-11-28T18:23:30.000Z
+last Price: 17710mark price: 17723.48timestamp: 2020-11-28T18:23:40.280Z
+last Price: 17710mark price: 17725.94timestamp: 2020-11-28T18:23:40.502Z
+last Price: 17710mark price: 17725.95timestamp: 2020-11-28T18:23:45.000Z
+last Price: 17710mark price: 17723.44timestamp: 2020-11-28T18:23:50.000Z
+last Price: 17710.5mark price: 17723.03timestamp: 2020-11-28T18:23:57.748Z
+last Price: 17710.5mark price: 17722.74timestamp: 2020-11-28T18:24:02.987Z
+last Price: 17710mark price: 17721.6timestamp: 2020-11-28T18:24:09.817Z
+last Price: 17710mark price: 17721.52timestamp: 2020-11-28T18:24:14.731Z
+last Price: 17710mark price: 17720.91timestamp: 2020-11-28T18:24:15.706Z
+last Price: 17710mark price: 17719.53timestamp: 2020-11-28T18:24:20.520Z
+last Price: 17709.5mark price: 17719.39timestamp: 2020-11-28T18:24:30.258Z
+last Price: 17710mark price: 17719.39timestamp: 2020-11-28T18:24:34.453Z
+last Price: 17710mark price: 17719.73timestamp: 2020-11-28T18:24:38.127Z
+last Price: 17710mark price: 17723.15timestamp: 2020-11-28T18:24:41.972Z
+last Price: 17710mark price: 17723.16timestamp: 2020-11-28T18:24:45.000Z
+last Price: 17710mark price: 17722.89timestamp: 2020-11-28T18:24:50.000Z
+last Price: 17709.5mark price: 17722.93timestamp: 2020-11-28T18:24:57.079Z
+last Price: 17710mark price: 17723.07timestamp: 2020-11-28T18:25:00.493Z
+last Price: 17710mark price: 17721.57timestamp: 2020-11-28T18:25:09.664Z
+last Price: 17709.5mark price: 17723.08timestamp: 2020-11-28T18:25:14.176Z
+last Price: 17709.5mark price: 17719.95timestamp: 2020-11-28T18:25:18.700Z
+last Price: 17710mark price: 17723.32timestamp: 2020-11-28T18:25:20.746Z
+last Price: 17710mark price: 17720.97timestamp: 2020-11-28T18:25:27.846Z
+last Price: 17709.5mark price: 17722.22timestamp: 2020-11-28T18:25:35.527Z
+last Price: 17709.5mark price: 17722.2timestamp: 2020-11-28T18:25:40.000Z
+last Price: 17713mark price: 17725.93timestamp: 2020-11-28T18:25:45.000Z
+last Price: 17713.5mark price: 17726.39timestamp: 2020-11-28T18:25:51.254Z
+last Price: 17713.5mark price: 17725.65timestamp: 2020-11-28T18:25:55.000Z
+last Price: 17715.5mark price: 17727.08timestamp: 2020-11-28T18:26:00.300Z
+last Price: 17715.5mark price: 17728.89timestamp: 2020-11-28T18:26:05.000Z
+last Price: 17715.5mark price: 17729.59timestamp: 2020-11-28T18:26:10.000Z
+last Price: 17720mark price: 17729.59timestamp: 2020-11-28T18:26:13.253Z
+last Price: 17725.5mark price: 17734.11timestamp: 2020-11-28T18:26:16.164Z
+last Price: 17726mark price: 17734.82timestamp: 2020-11-28T18:26:25.074Z
+last Price: 17725.5mark price: 17736.68timestamp: 2020-11-28T18:26:30.000Z
+last Price: 17726mark price: 17736.68timestamp: 2020-11-28T18:26:34.194Z
+last Price: 17725.5mark price: 17734.26timestamp: 2020-11-28T18:26:40.000Z
+last Price: 17725.5mark price: 17734.26timestamp: 2020-11-28T18:26:46.014Z
