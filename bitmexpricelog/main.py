@@ -13,30 +13,37 @@ def get_logger():
 
     f = open("logfile.txt", "a")
 
-    client = bitmex.bitmex(test=False, api_key=config.BMEX_API_ID,
-                           api_secret=config.BMEX_API_SECRET)
 
+    client = bitmex.bitmex(test=False, api_key=config.BMEX_API_ID,
+                    api_secret=config.BMEX_API_SECRET)
+    
     price = client.Quote.Quote_get(symbol='XBTUSD').result()
     #print (price)
     #print (price[0][0])
 
-    ws = BitMEXWebsocket(endpoint="https://www.bitmex.com/api/v1", symbol="XBTUSD", api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+    ws = BitMEXWebsocket(endpoint="https://www.bitmex.com/api/v1", symbol="XBTUSD",api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
 
     while(ws.ws.sock.connected):
-        data = ws.get_instrument()  # getting the mark price
+        data = ws.get_instrument() #getting the mark price
 
         depth = ws.get_ticker()
-        print(depth)
-        dataToLog = str('last Price: ' + str(data['lastPrice']) + 'mark price: ' + str(
-            data['markPrice']) + 'timestamp: ' + str(data['timestamp']) + '\n')
+        #print (depth)
+
+
+        dataToLog = str('last Price: ' + str(data['lastPrice']) + 'mark price: ' + str(data['markPrice']) + 'timestamp: ' + str(data['timestamp']) + '\n')
 
         with open('logfile.txt', 'a') as file:
             file.write(str(dataToLog))
 
-        time.sleep(5)
+
+
+        time.sleep(1)
+    
+
 
     return client
 
 
 if __name__ == "__main__":
     ws = get_logger()
+
