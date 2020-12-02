@@ -4,11 +4,10 @@ import bitmex
 import config
 import json
 import pprint
-
+import datetime
 
 def get_logger():
     '''
-    rerturn a bitex client also logs blabla this is prob outdated
     '''
 
     f = open("logfile.txt", "a")
@@ -22,12 +21,26 @@ def get_logger():
     #print (price[0][0])
 
     ws = BitMEXWebsocket(endpoint="https://www.bitmex.com/api/v1", symbol="XBTUSD",api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+    print ("client started")
+
+    startTime = datetime.datetime.now()
+
+    hours_added = datetime.timedelta(hours=1)
+    endTime = startTime + hours_added
+
+    #print (startTime , " , , ," , future_date_and_time)
+
 
     while(ws.ws.sock.connected):
+
+        currentTime = datetime.datetime.now()
+        if endTime < currentTime:
+            get_logger()
+
         data = ws.get_instrument() #getting the mark price
 
         depth = ws.get_ticker()
-        #print (depth)
+        #print (data)
 
 
         dataToLog = str('last Price: ' + str(data['lastPrice']) + 'mark price: ' + str(data['markPrice']) + 'timestamp: ' + str(data['timestamp']) + '\n')
@@ -41,9 +54,6 @@ def get_logger():
     
 
 
-    return client
-
-
 if __name__ == "__main__":
-    ws = get_logger()
+    get_logger()
 
