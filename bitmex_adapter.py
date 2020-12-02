@@ -32,6 +32,7 @@ def buySignal(percentage, leverage):
 
       client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID,
                        api_secret=config.BMEX_API_SECRET)
+
       print("client started for buying")
       
       ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD",
@@ -68,6 +69,24 @@ def sellSignal(data):
       print("client connected")
 
       client.Order.Order_new(symbol = 'XBTUSD', orderQty = -10).result()
+
+
+def get_balance():
+      '''
+      retuns balance
+      '''
+
+      client = bitmex.bitmex(test=True, api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+
+      print("client started for buying")
+      
+      ws = BitMEXWebsocket(endpoint="https://testnet.bitmex.com/api/v1", symbol="XBTUSD", api_key=config.BMEX_API_ID, api_secret=config.BMEX_API_SECRET)
+      print ("client connected")
+
+
+      return ws.funds()
+
+
 
 def get_funds(percentage):
       '''

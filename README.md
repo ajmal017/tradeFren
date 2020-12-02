@@ -17,3 +17,7 @@ https://github.com/BitMEX/api-connectors/tree/master/official-ws/python
 
 
 feel free to use the bitmex testnet API in config.py :d
+
+
+
+use: pip install bitmex-ws

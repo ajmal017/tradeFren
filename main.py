@@ -50,7 +50,7 @@ def index():
         percentageToTradeWith = percentage
         leverageToTradeWith = leverage
 
-        #bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
+        bmex.buySignal(percentageToTradeWith, leverageToTradeWith)
 
 
         #print(float(askPrice) , float(orderQtyBTC) , float(leverage))
@@ -67,9 +67,12 @@ def index():
         print(orderQty, walletBalance/100000000)
         '''
 
-        
+        balance = bmex.get_balance()
+        print (balance)
+        #return render_template('index.html', mitirjunk=balance)
 
-    return render_template('index.html')
+
+    return render_template('index.html', mitirjunk = 'test')
 
 
 
